@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 function TodoItem({ text, onDelete }) {
   return (
     <li style={styles.item}>
@@ -31,3 +31,4 @@ const styles = {
 };
 
 export default TodoItem;
+
